@@ -314,6 +314,8 @@ declare namespace Backbone {
         navigate(fragment: string, options?: NavigateOptions): Router;
         navigate(fragment: string, trigger?: boolean): Router;
 
+        execute(callback: Function, args: any[], name: string) : void;
+        
         private _bindRoutes(): void;
         private _routeToRegExp(route: string): RegExp;
         private _extractParameters(route: RegExp, fragment: string): string[];
