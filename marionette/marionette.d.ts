@@ -1490,6 +1490,9 @@ declare namespace Marionette {
         /** A reference to the view instance that the behavior is on. */
         view: any;
 
+        /** A reference to events hash declared on the behavior. */
+        events: Backbone.EventsHash;
+
         /**
          * $ is a direct proxy of the views $ lookup method.
          */
