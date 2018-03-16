@@ -677,7 +677,7 @@ declare namespace Marionette {
          * that returns valid HTML as a string from the data parameter passed to
          * the function.
          */
-        static render(template: any, data: any): string;
+        static render(template: any, data: any, view?: any): string;
     }
 
     /**
